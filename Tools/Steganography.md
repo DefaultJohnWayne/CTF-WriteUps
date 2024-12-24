@@ -1,4 +1,4 @@
-# Tools for Steganography
+# Tools for Steganography ──★
 
 Actually, this is for me to refer, because I have halmeoni's memory hehe... Let's gaurr !!
 
@@ -19,7 +19,7 @@ Extract hidden data or embedded files from an image, video, or binary files
 Usage:
 Extract the hidden files
 
->binwalk <file_name>
+>binwalk -e <file_name>
 
 ---
 ### Steghide
@@ -68,6 +68,13 @@ Scan multiple color planes and encodings
 
 > zsteg <file_name>
 
+
+---
+### Zbarimg 
+To read the contents of an image, such as QRCode
+
+Usage:
+> zbarimg <file_name>
 ---
 ### Audacity
 A GUI-based audio editor to inspect waveforms, frequency spectrums, and reverse-engineer hidden data
